@@ -12,5 +12,11 @@ namespace Unidad_II_Clases
         public string? Especie { get; set; }
         public int Edad { get; set; }
         public string? Foto { get; set; }
+
+        public override string ToString()
+        {
+            return $"{Nombre},{Edad},{Foto},{Especie}";
+        }
+
     }
 }
